@@ -2,11 +2,11 @@ package Task2.Ex2;
 
 public class Account {
 
-    private long number;
+    private Long number;
     private String FirstName;
     private String LastName;
     private AccountType type;
-    private double balance;
+    private Double balance;
 
     private static long nextNumber;
 
@@ -35,5 +35,45 @@ public class Account {
                 ", type=" + type +
                 ", balance=" + balance +
                 '}';
+    }
+
+    public String getFirstName() {
+        return FirstName;
+    }
+
+    public void setFirstName(String firstName) {
+        FirstName = firstName;
+    }
+
+    public String getLastName() {
+        return LastName;
+    }
+
+    public void setLastName(String lastName) {
+        LastName = lastName;
+    }
+
+    public AccountType getType() {
+        return type;
+    }
+
+    public void setType(AccountType type) {
+        this.type = type;
+    }
+
+    public Double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(Double balance) {
+        this.balance = balance;
+    }
+
+    public static long getNextNumber() {
+        return nextNumber;
+    }
+
+    public static void setNextNumber(long nextNumber) {
+        Account.nextNumber = nextNumber;
     }
 }

@@ -24,7 +24,7 @@ public class Task1Ex1to6 {
 
     public static void Ex3 () {
         double number = 100500;
-        double result = (number / 10) / 10;
+        double result = (number / 10) / 10d;
         System.out.println(result);
     }
 

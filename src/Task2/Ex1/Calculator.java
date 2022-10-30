@@ -23,7 +23,7 @@ public class Calculator {
     }
 
     public long Subtract(int a, int b) {
-        return ((long)(a-b));
+        return ((a-b));
     }
 
     public double Multiply(double a, double b) {

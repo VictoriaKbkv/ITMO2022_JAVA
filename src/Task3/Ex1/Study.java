@@ -7,8 +7,8 @@ class Study {
         this.course = course;
     }
 
-    public String printCourse() {
-        return this.course;
+    public void printCourse() {
+        System.out.println(this.course);
     }
 }
 

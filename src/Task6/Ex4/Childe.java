@@ -7,6 +7,6 @@ public class Childe extends Parent {
     }
 
     public void outPut() {
-        System.out.println("Переменная:" + this.getNumber());
+        System.out.println("Переменная:" + super.getNumber());
     }
 }
